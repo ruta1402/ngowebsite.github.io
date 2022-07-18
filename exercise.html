@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+
+<form onsubmit="return false">
+    <label type="text">First Name</label>
+    <input type="text" name="fname" placeholder="First Name">
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+
+    <br><br><label type="text">Last Name</label>
+    <input type="text" name="lname" placeholder="Last Name">
+    
+    <br><br><label type="text" >Username</label>
+    <input type="text" id="uname" placeholder="User Name">
+    <span id="uname_error"></span>
+
+
+    <br><br><label for="age">Age</label>
+    <select name="age" id="age">
+        <option value=">10">>10</option>
+        <option value="10-18">10-18</option>
+        <option value="19-25">19-25</option>
+        <option value="25-40">25-40</option>
+    </select>
+
+    <br><br><label type="text">Email</label>
+    <input type="text" id="email" placeholder="Email">
+    <span id="emailerror"></span>
+
+    <br><br><label type="text">Password</label>
+    <input type="password" id="password" placeholder="Password" >
+    
+    
+    <br><br><label type="text">Confirm Password</label>
+    <input type="password" id="confpassword" placeholder="Confirm Password">
+    <span id="confpass"></span>
+
+    <br><br><button type="submit" onclick="return validate()" return>Submit</button>
+</form>
+
+
+</body>
+</html>

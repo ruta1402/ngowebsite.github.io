@@ -1,0 +1,5 @@
+remember me
+forgot password
+upload
+invoice
+mp-search
