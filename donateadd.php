@@ -19,7 +19,7 @@ if(mysqli_query($conn,$sql))
 {
     echo ("<script LANGUAGE='JavaScript'>
           window.alert('Success');
-          window.location.href='home.php';
+          window.location.href='index.php';
           </script>");
 }
 else
